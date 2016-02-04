@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #6f849d;
+  color: #888;
   text-decoration: none;
 }
 
@@ -35,14 +35,25 @@ hr {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-/* --------------------------------
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*******************************************************************************
 
 Main Components
 
--------------------------------- */
+*******************************************************************************/
+
 #mainContainer {
   max-width: 1200px;
   margin: auto;
+}
+
+.categoryBlock {
+  position: relative;
+  border: 0px solid #000;
 }
 
 .section-title {
@@ -55,9 +66,75 @@ Main Components
   font-weight: bolder;
 }
 
+.section-content {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 120%;
+}
+
+/*******************************************************************************
+PRESENTATION
+*******************************************************************************/
+
+.presentation-item {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#photo {
+  position: absolute;
+  width: 120px;
+  height: 160px;
+  right: 0px;
+  top: -50px;
+  overflow: hidden;
+}
+
+#presentation-text {
+  margin-top: 30px;
+  line-height: 160%;
+  color: #111;
+}
+
+/*****************
+THE SOCIAL NETWORK
+*****************/
+
+#networks {
+  margin-top: 20px;
+}
+
+#networks img {
+  max-height: 25px;
+  margin-right: 40px;
+}
+
+#networks img {
+    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -ms-transition: all 0.5s ease; /* IE 9 */
+    -o-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+}
+
+#networks img:hover {
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
+
+/*******************************************************************************
+TIMELINE CSS
+*******************************************************************************/
+
 .cd-horizontal-timeline {
   opacity: 0;
-  margin: 2em auto;
+  margin: 0em auto;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   transition: opacity 0.2s;
@@ -191,7 +268,7 @@ Main Components
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 0em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
