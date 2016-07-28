@@ -465,11 +465,31 @@
 				</div>
 			<div class='skill-title'>Computer Things</div>
 				<div class='skill-set'>
+					<span class='skill-set-title'>Programmation</span>
+					<ul>
+						<li><img src='img/swift.png' alt='Swift' title='Swift' />&nbsp;<div class="meter"><span title='Swift' style="width: 85%"></span></div></li>
+						<li><img src='img/python.png' alt='Python' title='Python' />&nbsp;<div class="meter"><span title='Python' style="width: 70%"></span></div></li>
+						<li><img src='img/obj-c.png' alt='Objective-C' title='Objective-C' />&nbsp;<div class="meter"><span title='Objective-C' style="width: 65%"></span></div></li>
+						<li><img src='img/html.png' alt='HTML' title='HTML' />&nbsp;<div class="meter"><span title='HTML' style="width: 50%"></span></div></li>
+						<li><img src='img/css.png' alt='CSS' title='CSS' />&nbsp;<div class="meter"><span title='CSS' style="width: 50%"></span></div></li>
+						<li><img src='img/php.png' alt='PHP' title='PHP' />&nbsp;<div class="meter"><span title='PHP' style="width: 35%"></span></div></li>
+						<li><img src='img/mysql.png' alt='MySQL' title='MySQL' />&nbsp;<div class="meter"><span title='MySQL' style="width: 30%"></span></div></li>
+					</ul>
+				</div>
+				<div class='skill-set'>
 					<span class='skill-set-title'>Office</span>
 					<ul>
-						<li><img src='img/doc.png' alt='Word' />&nbsp;<div class="meter"><span style="width: 95%"></span></div></li>
-						<li><img src='img/xls.png' alt='Excel' />&nbsp;<div class="meter"><span style="width: 75%"></span></div></li>
-						<li><img src='img/ppt.png' alt='Powerpoint' />&nbsp;<div class="meter"><span style="width: 90%"></span></div></li>
+						<li><img src='img/doc.png' alt='Word' title='Word' />&nbsp;<div class="meter"><span title='Word' style="width: 95%"></span></div></li>
+						<li><img src='img/xls.png' alt='Excel' title='Excel' />&nbsp;<div class="meter"><span title='Excel' style="width: 75%"></span></div></li>
+						<li><img src='img/ppt.png' alt='Powerpoint' title='Powerpoint' />&nbsp;<div class="meter"><span title='Powerpoint' style="width: 90%"></span></div></li>
+					</ul>
+				</div>
+				<div class='skill-set'>
+					<span class='skill-set-title'>Video editing & 3D</span>
+					<ul>
+						<li><img src='img/finalcut.png' alt='Final Cut Pro' title='Final Cut Pro' />&nbsp;<div class="meter"><span title='Final Cut Pro' style="width: 80%"></span></div></li>
+						<li><img src='img/premiere.png' alt='Premiere Pro' title='Premiere Pro' />&nbsp;<div class="meter"><span title='Premiere Pro' style="width: 75%"></span></div></li>
+						<li><img src='img/blender.png' alt='Blender' title='Blender' />&nbsp;<div class="meter"><span title='Blender' style="width: 65%"></span></div></li>
 					</ul>
 				</div>
 		</div>
