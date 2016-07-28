@@ -6,7 +6,7 @@ Designed and Implemented by Thomas Brichart
 
 ### Online Version
 
-Online CV: [thomas.brichart.fr.js](http://thomas.brichart.fr)
+Online CV: [thomas.brichart.fr](http://thomas.brichart.fr)
 
 ### PDF Version
 
