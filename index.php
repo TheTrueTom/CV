@@ -101,13 +101,14 @@
 						<p>October 2016 - Now</p><br />
 						<p>
 							<img align="right" src="img/glincs.png" alt="Glincs S.A.S." />
-							CTO
+							Co-managing the company and its research
 						</p>
 						<p>
-							<em>Anti-counterfeiting</em>
-							<em>Fluorescence detection</em>
-							<em>Scale inhibitor detection</em>
+							<em>Anti-counterfeiting tracer synthesis and detection</em>
+							<em>Fluorescence detector engineering</em>
+							<em>Scale inhibitor tracer synthesis detection</em>
 						</p>
+						<p>Managing of a small team and training interns are also part of my mission.</p>
 					</li>
 
 					<li data-date="01/12/2001">
