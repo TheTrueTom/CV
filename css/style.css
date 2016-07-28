@@ -89,17 +89,18 @@ PRESENTATION
 *******************************************************************************/
 
 .presentation-item {
+  position: relative;
   margin: 0 auto;
   margin-top: 10px;
 }
 
 #photo {
-  position: absolute;
+  position: relative;;
   width: 150px;
   height: 200px;
-  right: 0px;
-  top: -50px;
   overflow: hidden;
+  float: right;
+  margin-top: 0px;
 }
 
 #presentation-text {

@@ -18,31 +18,33 @@
 			Thomas Brichart
 		</div>
 		<div class="section-content">
-			<div id="address" class="presentation-item">
-				Institutt for Energiteknikk<br />
-				Instituttveien 18<br />
-				P.O. Box 40<br />
-				2027 Kjeller, Norway
-			</div>
-			<div id="phone" class="presentation-item">
-				+47 454 56 066
-			</div>
-			<div id="email" class="presentation-item">
-				<a href="mailto:thomas.brichart@ife.no">thomas.brichart[at]ife.no</a>
-			</div>
-			<div id="networks" class="presentation-item">
-				<a title="Look me up on Linkedin" href="https://no.linkedin.com/pub/thomas-brichart/76/294/2b1">
-      		<img src="img/linkedin.png" alt="Look me up on Linkedin"/>
-        </a>
-				<a title="Look me up on Viadeo" href="http://www.viadeo.com/fr/profile/thomas.brichart">
-					<img src="img/viadeo.png" alt="Look me up on Viadeo"/>
-				</a>
-				<a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Thomas_Brichart?cp=shp">
-					<img src="img/researchgate.png" alt="Follow me on ResearchGate" />
-				</a>
-			</div>
 			<div id="photo" class="presentation-item">
 				<img src="img/photo_me.jpg" alt="Photo de Thomas Brichart" />
+			</div>
+			<div>
+				<div id="address" class="presentation-item">
+					Institutt for Energiteknikk<br />
+					Instituttveien 18<br />
+					P.O. Box 40<br />
+					2027 Kjeller, Norway
+				</div>
+				<div id="phone" class="presentation-item">
+					+47 454 56 066
+				</div>
+				<div id="email" class="presentation-item">
+					<a href="mailto:thomas.brichart@ife.no">thomas.brichart[at]ife.no</a>
+				</div>
+				<div id="networks" class="presentation-item">
+					<a title="Look me up on Linkedin" href="https://no.linkedin.com/pub/thomas-brichart/76/294/2b1">
+	      		<img src="img/linkedin.png" alt="Look me up on Linkedin"/>
+	        </a>
+					<a title="Look me up on Viadeo" href="http://www.viadeo.com/fr/profile/thomas.brichart">
+						<img src="img/viadeo.png" alt="Look me up on Viadeo"/>
+					</a>
+					<a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Thomas_Brichart?cp=shp">
+						<img src="img/researchgate.png" alt="Follow me on ResearchGate" />
+					</a>
+				</div>
 			</div>
 			<div id="presentation-text" class="presentation-item">
 				<p>
