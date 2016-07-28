@@ -14,7 +14,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Helvetica", sans-serif;
-  color: #383838;
   background-color: #f8f8f8;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -78,7 +77,7 @@ Main Components
   margin: 0 auto;
   font-size: 1.5rem;
   line-height: 120%;
-  color: #959595;
+  color: #777;
 }
 
 /*******************************************************************************
@@ -102,7 +101,7 @@ PRESENTATION
 #presentation-text {
   margin-top: 30px;
   line-height: 160%;
-  color: #666;
+  color: #777;
 }
 
 /*****************
@@ -176,6 +175,7 @@ PUBLICATIONS
   margin-top: 5px;
   margin-bottom: 10px;
   text-align: center;
+  color: #777;
 }
 
 .publication-thumbnail img {
@@ -302,6 +302,20 @@ HOBBIES
   font-weight: bold;
   color: #666666;
   clear: both;
+}
+
+.hobby-content li {
+  list-style: disc;
+  padding-left: 20px;
+  padding-top: 10px;
+  list-style-position: inside;
+}
+
+.hobby-content li li {
+  list-style: square;
+  padding-left: 20px;
+  padding-top: 10px;
+  list-style-position: inside;
 }
 
 /*******************************************************************************

@@ -502,8 +502,36 @@
 			Interests
 		</div>
 		<div class="section-content">
-			<div class='hobby-title'>Scoutisme</div>
+			<div class='hobby-title'>Scoutism</div>
+			<div class='hobby-content'>
+				Member of the Scouts et Guides de France association since the age of 8.
+
+				<ul>
+					<li>Humanitarian project in Peru (5 weeks in 2006)</li>
+					<li>Scout leader
+						<ul>
+							<li>BAFA certification</li>
+							<li>3 years for 11-14 year olds</li>
+							<li>2 years for 11-14 year olds</li>
+						</ul>
+					</li>
+					<li>Associated member of the national team
+						<ul>
+							<li>Internet website creation</li>
+							<li>You're Up jamboree preparation (2015)</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
 			<div class='hobby-title'>Arts</div>
+				<div class='hobby-content'>
+					<ul>
+						<li>Music: played the clarinette & the saxophone for many years</li>
+						<li>Movies / TV series (Drama, thriller, sci-fi)</li>
+						<li>Reading (Sci-fi, historical)</li>
+					</ul>
+			</div>
 		</div>
 	</div>
 </div>
