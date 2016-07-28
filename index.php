@@ -12,6 +12,7 @@
 </head>
 <body>
 <div id="mainContainer">
+	<!--  PRESENTATION   -->
 	<div id="presentation" class="categoryBlock">
 		<div class="section-title">
 			Thomas Brichart
@@ -446,11 +447,35 @@
 		</div>
 	</div>
 
+	<!--  Other skills   -->
+	<hr />
+	<div id="otherSkills" class="categoryBlock">
+		<div class="section-title">
+			Other Skills
+		</div>
+		<div class="section-content">
+			<div class='skill-title'>Language</div>
+				<div>
+					<ul>
+						<li><img src='img/france.png' alt='French' />&nbsp;French: Mother tongue</li>
+						<li><img src='img/uk.png' alt='UK English' />&nbsp;<img src='img/us.png' alt='US English' />&nbsp;English: Fluent</li>
+						<li><img src='img/norway.png' alt='Norwegian bokmål' />&nbsp;Norwegain bokmål: Basics</li>
+						<li><img src='img/germany.png' alt='German' />&nbsp;German: Basics</li>
+					</ul>
+				</div>
+			<div class='skill-title'>Computer Science</div>
+		</div>
+	</div>
+
 	<!--  Hobbies   -->
 	<hr />
 	<div id="hobbies" class="categoryBlock">
 		<div class="section-title">
-			Other interests
+			Interests
+		</div>
+		<div class="section-content">
+			<div class='hobby-title'>Scoutisme</div>
+			<div class='hobby-title'>Arts</div>
 		</div>
 	</div>
 </div>

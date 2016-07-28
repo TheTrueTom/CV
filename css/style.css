@@ -195,6 +195,42 @@ PUBLICATIONS
 }
 
 /*******************************************************************************
+OTHER SKILLS
+*******************************************************************************/
+
+.skill-title {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #666666;
+  clear: both;
+}
+
+/*******************************************************************************
+HOBBIES
+*******************************************************************************/
+
+.hobby-title {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #666666;
+  clear: both;
+}
+
+/*******************************************************************************
 TIMELINE CSS
 *******************************************************************************/
 
