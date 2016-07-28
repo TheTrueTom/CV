@@ -134,6 +134,67 @@ THE SOCIAL NETWORK
 }
 
 /*******************************************************************************
+PUBLICATIONS
+*******************************************************************************/
+
+.publication-year {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #666666;
+  clear: both;
+}
+
+.publication-list {
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #959595;
+}
+
+.publication-item {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+}
+
+.publication-thumbnail {
+  text-align: center;
+}
+
+.publication-title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.publication-thumbnail img {
+    -webkit-transition: all 0.3s ease; /* Safari and Chrome */
+    -moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+    transition: all 0.3s ease;
+}
+
+.publication-thumbnail img:hover {
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+  transform:scale(1.1);
+  cursor: zoom-in;
+}
+
+/*******************************************************************************
 TIMELINE CSS
 *******************************************************************************/
 

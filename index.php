@@ -46,7 +46,7 @@
 			<div id="presentation-text" class="presentation-item">
 				<p>
 					Currently a postdoctoral researcher at the Institute for Energy
-					Technology (Norway), ma research is focused on the synthesis and
+					Technology (Norway), my research is focused on the synthesis and
 					characterization of luminescents nano-objetcs for tracing
 					applications.
 				</p>
@@ -74,12 +74,12 @@
 				<div class="events-wrapper">
 					<div class="events">
 						<ol>
-							<li><a href="#0" data-date="01/01/2011">LBCM</a></li>
-							<li><a href="#0" data-date="01/01/2012">LPCML</a></li>
-							<li><a href="#0" data-date="01/01/2013">LCPML</a></li>
-							<li><a href="#0" data-date="01/01/2014">ILM</a></li>
-							<li><a href="#0" data-date="01/01/2015">IFE</a></li>
-							<li><a href="#0" data-date="01/01/2016" class="selected">Glincs</a></li>
+							<li><a href="#0" data-date="01/02/2001">LBCM</a></li>
+							<li><a href="#0" data-date="01/04/2001">LPCML</a></li>
+							<li><a href="#0" data-date="01/06/2001">LCPML</a></li>
+							<li><a href="#0" data-date="01/08/2001">ILM</a></li>
+							<li><a href="#0" data-date="01/12/2001">IFE</a></li>
+							<li><a href="#0" data-date="01/02/2002" class="selected">Glincs</a></li>
 						</ol>
 
 						<span class="filling-line" aria-hidden="true"></span>
@@ -94,7 +94,7 @@
 
 			<div class="events-content">
 				<ol>
-					<li class="selected" data-date="01/01/2016">
+					<li class="selected" data-date="01/02/2002">
 						<h2>Glincs S.A.S.</h2>
 						<p>Lyon, France</p>
 						<p>October 2016 - Now</p><br />
@@ -109,7 +109,7 @@
 						</p>
 					</li>
 
-					<li data-date="01/01/2015">
+					<li data-date="01/12/2001">
 						<h2>Institute for Energy Technology</h2>
 						<p>Kjeller, Norway</p>
 						<p>October 2014 - October 2016</p><br />
@@ -127,7 +127,7 @@
 						</p>
 					</li>
 
-					<li data-date="01/01/2014">
+					<li data-date="01/08/2001">
 						<h2>Institute of Light and Matter</h2>
 						<p>Lyon, France</p>
 						<p>Sept. 2011 - July 2014</p><br />
@@ -166,7 +166,7 @@
 						</p>
 					</li>
 
-					<li data-date="01/01/2013">
+					<li data-date="01/06/2001">
 						<h2>Laboratory of Physical-Chemistry of Luminescent Materials</h2>
 						<p>Lyon, France</p>
 						<p>January-July 2011</p><br />
@@ -194,7 +194,7 @@
 						</p>
 					</li>
 
-					<li data-date="01/01/2012">
+					<li data-date="01/04/2001">
 						<h2>Laboratory of Physical-Chemistry of Luminescent Materials</h2>
 						<p>Lyon, France</p>
 						<p>April-July 2010</p><br />
@@ -222,7 +222,7 @@
 						</div>
 					</li>
 
-					<li data-date="01/01/2011">
+					<li data-date="01/02/2001">
 						<h2>Laboratory of Marine Biology and Chemistry</h2>
 						<p>Lorient, France</p>
 						<p>May-June 2009</p><br />
@@ -389,6 +389,60 @@
 		</div>
 		<div class="section-content">
 			6 articles, 3 conference papers, 1 thesis and 5 patents
+
+		<?php
+			function len_sort($a,$b) {
+				return strlen($a)-strlen($b);
+			}
+
+			$dir = "papers";
+
+			if (is_dir($dir)) {
+				if ($dh = opendir($dir)) {
+
+					$list = array();
+					$years = array();
+
+					while (($file = readdir($dh)) !== false) {
+						if ($file[0] != '.' && substr($file, -3) == 'pdf') {
+							if (!array_key_exists('A'.substr($file, 0, 4), $list)) {
+								$array = array('A'.substr($file, 0, 4) => array($file));
+								$list = array_merge($list, $array);
+								$years = array_merge($years, array('A'.substr($file, 0, 4)));
+							} else {
+								$list['A'.substr($file, 0, 4)] = array_merge($list['A'.substr($file, 0, 4)], array($file));
+							}
+						}
+					}
+
+					rsort($years);
+
+					foreach ($years as $year) {
+						echo "<div class='publication-year'>".substr($year, 1, 4)."</div>";
+
+						$publicationsList = $list[$year];
+
+						usort($publicationsList,'len_sort');
+
+						foreach ($publicationsList as $number => $publication) {
+							?>
+							<div class='publication-item'>
+								<div class='publication-thumbnail'>
+									<a href='<?php echo 'papers/'.$publication; ?>'><img src='<?php echo 'papers/'.substr($publication, 0, -3).'png'; ?>' alt='<?php echo substr(substr($publication, 7),0, -4); ?>'></a>
+								</div>
+								<div class='publication-title'>
+									<?php echo substr(substr($publication, 7),0, -4); ?>
+								</div>
+							</div>
+
+							<?php
+						}
+					}
+
+					closedir($dh);
+				}
+			}
+		?>
 		</div>
 	</div>
 
