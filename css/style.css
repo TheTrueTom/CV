@@ -44,6 +44,10 @@ figcaption {
   display: block;
 }
 
+b {
+  font-weight: bold;
+}
+
 /*******************************************************************************
 
 Main Components
@@ -612,7 +616,7 @@ TIMELINE CSS
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  color: #777;
 }
 
 .cd-horizontal-timeline .events-content .event-description p {

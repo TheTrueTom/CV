@@ -507,15 +507,15 @@
 				Member of the Scouts et Guides de France association since the age of 8.
 
 				<ul>
-					<li>Humanitarian project in Peru (5 weeks in 2006)</li>
-					<li>Scout leader
+					<li><b>Humanitarian project in Peru</b> (5 weeks in 2006)</li>
+					<li><b>Scout leader</b>
 						<ul>
 							<li>BAFA certification</li>
 							<li>3 years for 11-14 year olds</li>
 							<li>2 years for 11-14 year olds</li>
 						</ul>
 					</li>
-					<li>Associated member of the national team
+					<li><b>Associated member of the national team</b>
 						<ul>
 							<li>Internet website creation</li>
 							<li>You're Up jamboree preparation (2015)</li>
@@ -527,9 +527,9 @@
 			<div class='hobby-title'>Arts</div>
 				<div class='hobby-content'>
 					<ul>
-						<li>Music: played the clarinette & the saxophone for many years</li>
-						<li>Movies / TV series (Drama, thriller, sci-fi)</li>
-						<li>Reading (Sci-fi, historical)</li>
+						<li><b>Music:</b> played the clarinette & the saxophone for many years</li>
+						<li><b>Movies</b> / TV series (Drama, thriller, sci-fi)</li>
+						<li><b>Reading</b> (Sci-fi, historical)</li>
 					</ul>
 			</div>
 		</div>
