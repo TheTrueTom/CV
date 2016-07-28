@@ -454,11 +454,11 @@
 			Other Skills
 		</div>
 		<div class="section-content">
-			<div class='skill-title'>Language</div>
-				<div>
+			<div class='skill-title'>Languages</div>
+				<div class='skill'>
 					<ul>
 						<li><img src='img/france.png' alt='French' />&nbsp;French: Mother tongue</li>
-						<li><img src='img/uk.png' alt='UK English' />&nbsp;<img src='img/us.png' alt='US English' />&nbsp;English: Fluent</li>
+						<li><img src='img/uk.png' alt='UK English' />&nbsp;English: Fluent</li>
 						<li><img src='img/norway.png' alt='Norwegian bokmål' />&nbsp;Norwegain bokmål: Basics</li>
 						<li><img src='img/germany.png' alt='German' />&nbsp;German: Basics</li>
 					</ul>
