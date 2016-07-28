@@ -463,7 +463,15 @@
 						<li><img src='img/germany.png' alt='German' />&nbsp;German: Basics</li>
 					</ul>
 				</div>
-			<div class='skill-title'>Computer Science</div>
+			<div class='skill-title'>Computer Things</div>
+				<div class='skill-set'>
+					<span class='skill-set-title'>Office</span>
+					<ul>
+						<li><img src='img/doc.png' alt='Word' />&nbsp;<div class="meter"><span style="width: 95%"></span></div></li>
+						<li><img src='img/xls.png' alt='Excel' />&nbsp;<div class="meter"><span style="width: 75%"></span></div></li>
+						<li><img src='img/ppt.png' alt='Powerpoint' />&nbsp;<div class="meter"><span style="width: 90%"></span></div></li>
+					</ul>
+				</div>
 		</div>
 	</div>
 
