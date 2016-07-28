@@ -455,12 +455,12 @@
 		</div>
 		<div class="section-content">
 			<div class='skill-title'>Languages</div>
-				<div class='skill'>
+				<div class='skill-set no-border'>
 					<ul>
-						<li><img src='img/france.png' alt='French' />&nbsp;French: Mother tongue</li>
-						<li><img src='img/uk.png' alt='UK English' />&nbsp;English: Fluent</li>
-						<li><img src='img/norway.png' alt='Norwegian bokmål' />&nbsp;Norwegain bokmål: Basics</li>
-						<li><img src='img/germany.png' alt='German' />&nbsp;German: Basics</li>
+						<li><img src='img/france.png' alt='French'  title='French' />&nbsp;<div class="meter"><span title='French' style="width: 100%"></span></div></li>
+						<li><img src='img/uk.png' alt='UK English' title='UK English' />&nbsp;<div class="meter"><span title='UK English' style="width: 95%"></span></div></li>
+						<li><img src='img/norway.png' alt='Norwegian bokmål' title='Norwegian bokmål' />&nbsp;<div class="meter"><span title='Norwegian bokmål' style="width: 10%"></span></div></li>
+						<li><img src='img/germany.png' alt='German' title='German' />&nbsp;<div class="meter"><span title='German' style="width: 10%"></span></div></li>
 					</ul>
 				</div>
 			<div class='skill-title'>Computer Things</div>

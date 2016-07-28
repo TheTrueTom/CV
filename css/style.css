@@ -213,10 +213,6 @@ OTHER SKILLS
   clear: both;
 }
 
-.skill img {
-  vertical-align: middle;
-}
-
 .skill-set {
   position: relative;
   border: 1px solid rgba(0,0,0,0.4);
@@ -229,6 +225,11 @@ OTHER SKILLS
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.no-border {
+  border: 0;
+  margin-bottom: 0px;
 }
 
 .skill-set-title {
