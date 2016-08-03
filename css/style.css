@@ -327,6 +327,10 @@ HOBBIES
 TIMELINE CSS
 *******************************************************************************/
 
+.event-image {
+  float: right;
+}
+
 .cd-horizontal-timeline {
   opacity: 0;
   margin: 0em auto;

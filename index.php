@@ -112,7 +112,7 @@
 						<p>Lyon, France</p>
 						<p>October 2016 - Now</p><br />
 						<p>
-							<img align="right" src="img/glincs.png" alt="Glincs S.A.S." />
+							<img class="event-image" src="img/glincs.png" alt="Glincs S.A.S." />
 							Co-managing the company and its research
 						</p>
 						<p>
@@ -128,7 +128,7 @@
 						<p>Kjeller, Norway</p>
 						<p>October 2014 - October 2016</p><br />
 						<p>
-							<img align="right" src="img/well_animation.gif" alt="Tracers in oil reservoir" />
+							<img class="event-image" src="img/well_animation.gif" alt="Tracers in oil reservoir" />
 							Development of intelligent nanotracers (able to give information about temperature, pH, salinity, residual oil saturation, etc.)
 						</p>
 						<p>
@@ -146,7 +146,7 @@
 						<p>Lyon, France</p>
 						<p>Sept. 2011 - July 2014</p><br />
 						<p>
-							<img align="right" src="img/interwell.png" alt="Tracers in oil reservoir" />
+							<img class="event-image" src="img/interwell.png" alt="Tracers in oil reservoir" />
 							PhD thesis on the subject : 'Fluorescent lanthanide-based tracers in complex media'.
 							This work is focused on the synthesis and caracterisation of nano-objects
 							(lanthanides complexes, nanoparticles) for tracing applications in complex media
@@ -214,7 +214,7 @@
 						<p>April-July 2010</p><br />
 						<div class="event-description">
 							<p>
-								<img align="right" src="img/absolut.jpeg" alt="Fluorescent coating on glass substrate" />
+								<img class="event-image" src="img/absolut.jpeg" alt="Fluorescent coating on glass substrate" />
 								The objective of this internship was to explore fast
 								and easy methods to graft fluorescent and/or hydrophilic nanoparticles
 								on glass surface in order to add visual effects to glass bottles sold
@@ -243,7 +243,7 @@
 
 						<div class="event-description">
 							<p>
-								<img align="right" src="img/algae.jpg" alt="Algae growth inhibition by halogenated furanones" />
+								<img class="event-image" src="img/algae.jpg" alt="Algae growth inhibition by halogenated furanones" />
 								This two months internship focused on the synthesis of halogenated
 								furanones and on testing their anti-microbial effiency.
 								Halogenated furanones were investigated as a replacement technology
@@ -302,7 +302,7 @@
 						<h2>PhD in nanotechnologies</h2>
 						<p>University of Lyon, France</p><br />
 						<p>
-							<img align="right" src="img/ucbl.png" alt="Université Claude Bernard Lyon 1" />
+							<img class="event-image" src="img/ucbl.png" alt="Université Claude Bernard Lyon 1" />
 							PhD thesis on the subject : 'Fluorescent lanthanide-based tracers in complex media'.
 							This work is focused on the synthesis and caracterisation of nano-objects
 							(lanthanides complexes, nanoparticles) for tracing applications in complex media
@@ -341,8 +341,8 @@
 						<p>University of Lyon, France</p><br />
 						<p>
 							High honors<br />
-							<img align="right" src="img/ucbl.png" alt="Université Claude Bernard Lyon 1" /><br />
-							<p style='font-weight: bolder;'>First year</p>
+							<img class="event-image" src="img/ucbl.png" alt="Université Claude Bernard Lyon 1" /><br />
+							<span style='font-weight: bolder;'>First year</span>
 							<em>Experimental techniques</em>
 							<em>Organometallic chemistry and homogenous catalysis</em>
 							<em>Supramolecular chemistry</em>
@@ -350,7 +350,7 @@
 							<em>Development and implementation, from nano to monocristal</em>
 							<em>3 months internship</em>
 							<br />
-							<p style='font-weight: bolder;'>Second year</p>
+							<span style='font-weight: bolder;'>Second year</span>
 							<em>Molecular and coordination chemistry</em>
 							<em>Elaboration of hybrid solids organic/inorganic</em>
 							<em>Systems thermodynamic</em>
@@ -369,7 +369,7 @@
 						<h2>Bachelor in applied chemistry</h2>
 						<p>University of South Brittany, France</p><br />
 						<p>
-							<img align="right" src="img/ubs.png" alt="Université de Bretagne Sud" />
+							<img class="event-image" src="img/ubs.png" alt="Université de Bretagne Sud" />
 							<em>Organic chemistry</em>
 							<em>Solutions chemistry</em>
 							<em>General physics</em>
@@ -387,7 +387,7 @@
 						<p>
 							Specialization in physics-chemistry<br />
 							Third class honours
-							<img align="right" src="img/gdlt.png" alt="Lycée Georges de la Tour, Metz" />
+							<img class="event-image" src="img/gdlt.png" alt="Lycée Georges de la Tour, Metz" />
 						</p>
 					</li>
 				</ol>
@@ -442,7 +442,7 @@
 							?>
 							<div class='publication-item'>
 								<div class='publication-thumbnail'>
-									<a href='<?php echo 'papers/'.$publication; ?>'><img src='<?php echo 'papers/'.substr($publication, 0, -3).'png'; ?>' alt='<?php echo substr(substr($publication, 7),0, -4); ?>'></a>
+									<a href='<?php echo 'papers/'.rawurlencode($publication); ?>'><img src='<?php echo 'papers/'.rawurlencode(substr($publication, 0, -3)).'png'; ?>' alt='<?php echo substr(substr($publication, 7),0, -4); ?>'></a>
 								</div>
 								<div class='publication-title'>
 									<?php echo substr(substr($publication, 7),0, -4); ?>
