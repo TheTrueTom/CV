@@ -22,6 +22,7 @@
 </head>
 <body>
 <div id="mainContainer">
+
 	<!--  PRESENTATION   -->
 	<div id="presentation" class="categoryBlock">
 		<div class="section-title">
@@ -33,16 +34,16 @@
 			</div>
 			<div>
 				<div id="address" class="presentation-item">
-					Institutt for Energiteknikk<br />
-					Instituttveien 18<br />
-					P.O. Box 40<br />
-					2027 Kjeller, Norway
+					Glincs S.A.S<br />
+					43, boulevard du 11 Novembre 1918<br />
+					69100 Villeurbanne<br />
+					France
 				</div>
 				<div id="phone" class="presentation-item">
-					+47 454 56 066
+					<a href="tel:+33665949921">+33 6 65 94 99 21</a>
 				</div>
 				<div id="email" class="presentation-item">
-					<a href="mailto:thomas.brichart@ife.no">thomas.brichart[at]ife.no</a>
+					<a href="mailto:thomas.brichart@ife.no">thomas@brichart.fr</a>
 				</div>
 				<div id="networks" class="presentation-item">
 					<a title="Look me up on Linkedin" href="https://no.linkedin.com/pub/thomas-brichart/76/294/2b1">
@@ -58,17 +59,15 @@
 			</div>
 			<div id="presentation-text" class="presentation-item">
 				<p>
-					Currently a postdoctoral researcher at the Institute for Energy
-					Technology (Norway), my research is focused on the synthesis and
-					characterization of luminescents nano-objetcs for tracing
+					Currently research director at Glincs S.A.S. (France), my research is focused on the synthesis and
+					characterization of luminescents nano-objects for tracing and anti-counterfeiting
 					applications.
 				</p>
 				<p>
-					Those new tracers are developped for the geological exploration,
-					both for geothermal and oil industries. They are developped within an
-					internal IFE program and within the National IOR Centre of Norway,
-					a national research program aiming at recovering more oil
-					from current installations.
+					Those new tracers are developped for geological exploration,
+					and for anti-counterfeiting purposes. They are developped within our company
+					and in collaboration with the Institute of Light and Matter at the University
+					of Lyon.
 				</p>
 			</div>
 	</div>
@@ -113,7 +112,7 @@
 						<p>October 2016 - Now</p><br />
 						<p>
 							<img class="event-image" src="img/glincs.png" alt="Glincs S.A.S." />
-							Co-managing the company and its research
+							Research director
 						</p>
 						<p>
 							<em>Anti-counterfeiting tracer synthesis and detection</em>
