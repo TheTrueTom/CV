@@ -27,23 +27,24 @@
 	<div id="presentation" class="categoryBlock">
 		<div class="section-title">
 			Thomas Brichart
-		</div>
-		<div class="section-content">
 			<div id="photo" class="presentation-item">
 				<img src="img/photo_me.jpg" alt="Photo de Thomas Brichart" />
 			</div>
+		</div>
+		<div class="section-content">
 			<div>
 				<div id="address" class="presentation-item">
 					Glincs S.A.S<br />
+					Bâtiment l'Atrium<br />
 					43, boulevard du 11 Novembre 1918<br />
 					69100 Villeurbanne<br />
 					France
 				</div>
 				<div id="phone" class="presentation-item">
-					<a href="tel:+33665949921">+33 6 65 94 99 21</a>
+					<a href="tel:+33472445871">+33 4 72 44 58 71</a>
 				</div>
 				<div id="email" class="presentation-item">
-					<a href="mailto:thomas.brichart@ife.no">thomas@brichart.fr</a>
+					<a href="mailto:thomas.brichart@glincs.fr">thomas.brichart@glincs.fr</a>
 				</div>
 				<div id="networks" class="presentation-item">
 					<a title="Look me up on Linkedin" href="https://no.linkedin.com/pub/thomas-brichart/76/294/2b1">
@@ -59,15 +60,15 @@
 			</div>
 			<div id="presentation-text" class="presentation-item">
 				<p>
-					Currently research director at Glincs S.A.S. (France), my research is focused on the synthesis and
-					characterization of luminescents nano-objects for tracing and anti-counterfeiting
-					applications.
+					Currently Chief Technology Officer (CTO) at Glincs S.A.S. (France), my research is focused on the synthesis, detection 
+					and characterization of luminescent nano-objects. Our main fields of application are tracing (for soils and complex media), 
+					additives detection (in water treatment, oil & gas, environment) and marking (traceability and anti-counterfeiting).
 				</p>
 				<p>
-					Those new tracers are developped for geological exploration,
-					and for anti-counterfeiting purposes. They are developped within our company
-					and in collaboration with the Institute of Light and Matter at the University
-					of Lyon.
+					Those new tracers are developed within our company and in close collaboration with the Institute of Light and Matter at the University of Lyon and with several major actors in each domain (Total, SNF, Cotecna, Heriot-Watt University, etc.).
+				</p>
+				<p>
+					With our sister company Axint, we are also developing a versatile, application specific and portable detector for all our tracers and markers.
 				</p>
 			</div>
 	</div>
@@ -109,17 +110,19 @@
 					<li class="selected" data-date="01/02/2002">
 						<h2>Glincs S.A.S.</h2>
 						<p>Lyon, France</p>
-						<p>October 2016 - Now</p><br />
+						<p>Since October 2016</p><br />
 						<p>
 							<img class="event-image" src="img/glincs.png" alt="Glincs S.A.S." />
-							Research director
+							Chief Technology Officer
 						</p>
 						<p>
-							<em>Anti-counterfeiting tracer synthesis and detection</em>
-							<em>Fluorescence detector engineering</em>
-							<em>Scale inhibitor tracer synthesis detection</em>
+							<em>Head the development of new luminescent tracers and markers</em>
+							<em>Handle the conception and manufacturing of tailored detectors</em>
+							<em>Manage research programs</em>
+							<em>Control the conception of detection protocols</em>
+							<em>Develop an macOS/iOS software for our detectors</em>
 						</p>
-						<p>Managing of a small team and training interns are also part of my mission.</p>
+						<p>As part of a small start-up my missions are diversified and include all aspects of company management.</p>
 					</li>
 
 					<li data-date="01/12/2001">
