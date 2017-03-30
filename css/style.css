@@ -312,13 +312,13 @@ OTHER SKILLS
 
 .meter {
   width: 140px;
-	height: 6px;  /* Can be anything */
-	position: relative;
+  height: 6px;  /* Can be anything */
+  position: relative;
   float: left;
-	background: #555;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
+  background: #555;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
   margin-top: 17px;
   margin-left: 10px;
 }

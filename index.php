@@ -48,8 +48,8 @@
 				</div>
 				<div id="networks" class="presentation-item">
 					<a title="Look me up on Linkedin" href="https://no.linkedin.com/pub/thomas-brichart/76/294/2b1">
-	      		<img src="img/linkedin.png" alt="Look me up on Linkedin"/>
-	        </a>
+	      				<img src="img/linkedin.png" alt="Look me up on Linkedin"/>
+	        		</a>
 					<a title="Look me up on Viadeo" href="http://www.viadeo.com/fr/profile/thomas.brichart">
 						<img src="img/viadeo.png" alt="Look me up on Viadeo"/>
 					</a>
@@ -553,5 +553,43 @@
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script type="text/javascript">
+
+	equalheight = function(){
+		if (header.classList.contains("smaller")) {
+			var height = document.getElementById('presentation').clientHeight;
+			document.getElementById('workExperience').style.marginTop = height + 'px';
+		}
+	}
+
+	$(window).load(function() {
+	  equalheight();
+	});
+
+
+	$(window).resize(function(){
+	  equalheight();
+	});
+</script>
+<script type="text/javascript">
+	function init() {
+	    window.addEventListener('scroll', function(e){
+	        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+	            shrinkOn = 100,
+	            unshrinkOn = 50,
+	            header = document.getElementById('presentation');
+	        if (distanceY > shrinkOn) {
+	        	header.classList.add("smaller");
+	        	document.getElementById('workExperience').style.paddingTop = '180px';
+	        } else if (distanceY < unshrinkOn) {
+	            if (header.classList.contains("smaller")) {
+	                header.classList.remove("smaller");
+	                document.getElementById('workExperience').style.paddingTop = '0px';
+	            }
+	        }
+	    });
+	}
+	window.onload = init();
+</script>
 </body>
 </html>
