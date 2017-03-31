@@ -63,10 +63,10 @@
 					Currently Chief Technology Officer (CTO) at Glincs S.A.S. (France), my research is focused on the synthesis, detection 
 					and characterization of luminescent nano-objects. Our main fields of application are tracing (for soils and complex media), 
 					additives detection (in water treatment, oil & gas, environment) and marking (traceability and anti-counterfeiting).
-				</p>
+				</p><br />
 				<p>
 					Those new tracers are developed within our company and in close collaboration with the Institute of Light and Matter at the University of Lyon and with several major actors in each domain (Total, SNF, Cotecna, Heriot-Watt University, etc.).
-				</p>
+				</p><br />
 				<p>
 					With our sister company Axint, we are also developing a versatile, application specific and portable detector for all our tracers and markers.
 				</p>
@@ -556,6 +556,8 @@
 <script type="text/javascript">
 
 	equalheight = function(){
+		var header = document.getElementById('presentation');
+
 		if (header.classList.contains("smaller")) {
 			var height = document.getElementById('presentation').clientHeight;
 			document.getElementById('workExperience').style.marginTop = height + 'px';
